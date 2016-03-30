@@ -17,4 +17,6 @@ alias gad "git add"
 alias gbrdall "git branch | grep -v "master" | xargs git branch -D "
 alias gadall "git add ."
 alias gdf "git diff"
+alias gst "git stash"
+alias gpop "git stash pop"
 
