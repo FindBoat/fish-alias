@@ -3,12 +3,18 @@ function fish_prompt
 end
 
 # Alias.
-alias gpull "git pull"
-alias gpush "git push"
-alias gpullmaster "git pull origin master"
-alias gpushmaster "git push origin master"
-alias gcheckout "git checkout"
-alias gbranch "git branch"
-alias gcommit "git commit -am"
-alias gstatus "git status"
-alias gadd "git add"
+alias ll "ls -l"
+
+alias gpl "git pull"
+alias gps "git push"
+alias gplm "git pull origin master"
+alias gpsm "git push origin master"
+alias gco "git checkout"
+alias gbr "git branch"
+alias gct "git commit -am"
+alias gs "git status"
+alias gad "git add"
+alias gbrdall "git branch | grep -v "master" | xargs git branch -D "
+alias gadall "git add ."
+alias gdf "git diff"
+
