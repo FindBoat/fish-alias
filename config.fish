@@ -19,4 +19,5 @@ alias gadall "git add ."
 alias gdf "git diff"
 alias gst "git stash"
 alias gpop "git stash pop"
+alias gmg "git merge"
 
